@@ -1,0 +1,3 @@
+DELETE FROM PERSON p1
+USING PERSON p2
+WHERE p1.id > p2.id AND p1.email = p2.email
